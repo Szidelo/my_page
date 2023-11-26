@@ -1,0 +1,58 @@
+{
+    "projects": [
+        {
+            "id": "project1",
+            "name": "dine restaurant",
+            "tech": ["react", "react-router", "bootstrap", "css"],
+            "img": "./images/portfolio/dine-restaurant.png",
+            "source": "https://github.com/Szidelo/dine-restaurant-vercel",
+            "demo": "https://dine-restaurant-vercel.vercel.app/",
+            "desc": "Dine Restaurant is a sophisticated web application that offers a delightful culinary experience. With a modern and user-friendly interface, users can explore a diverse menu, make reservations, and discover the essence of fine dining. Indulge in a seamless online dining experience with Dine Restaurant!"
+        },
+        {
+            "id": "project2",
+            "name": "art galleria",
+            "tech": ["vue", "vue-router", "bootstrap", "css", "typescript"],
+            "img": "./images/portfolio/galleria.png",
+            "source": "https://github.com/Szidelo/galleria",
+            "demo": "https://galleria-three.vercel.app/galleria",
+            "desc": "Art Galleria is a virtual art exhibition platform that brings together a diverse collection of artistic masterpieces. Immerse yourself in the world of creativity as you navigate through captivating artworks from various genres. Explore, appreciate, and enjoy the beauty of art with Art Galleria!"
+        },
+        {
+            "id": "project3",
+            "name": "book store",
+            "tech": ["vue", "vue-router", "bootstrap", "css", "typescript"],
+            "img": "./images/portfolio/book-webflow.png",
+            "source": "https://github.com/Szidelo/Book-store-vuejs",
+            "demo": "https://book-store-vuejs.vercel.app/home",
+            "desc": "Book Store is an online haven for book enthusiasts, offering a curated selection of literary treasures. Dive into a virtual bookshelf filled with captivating stories from different genres. Browse, search, and discover your next literary adventure with ease at Book Store!"
+        },
+        {
+            "id": "project4",
+            "name": "space tourism",
+            "tech": ["react", "react-router", "bootstrap", "css"],
+            "img": "./images/portfolio/space.png",
+            "source": "https://github.com/Mentoring-Repository/app7-space-tourism",
+            "demo": "https://app7-space-tourism.vercel.app/",
+            "desc": "Embark on an extraordinary journey with Space Tourism, where the wonders of the cosmos come to life. This innovative web application offers a virtual tour of celestial destinations, providing a glimpse into the marvels of outer space. Experience the thrill of space exploration from the comfort of your screen with Space Tourism!"
+        },
+        {
+            "id": "project5",
+            "name": "age calculator",
+            "tech": ["html", "css", "bootstrap", "vanilla javascript"],
+            "img": "./images/portfolio/age-calculator.png",
+            "source": "https://github.com/Szidelo/age_calculator_app",
+            "demo": "https://szidelo.github.io/age_calculator_app/",
+            "desc": "Age Calculator is a handy tool that simplifies the process of determining age and important milestones. Whether you're planning events, tracking personal achievements, or simply curious, this intuitive calculator provides quick and accurate results. Calculate age effortlessly with Age Calculator!"
+        },
+        {
+            "id": "project6",
+            "name": "card form",
+            "tech": ["html", "css", "bootstrap", "vanilla javascript"],
+            "img": "./images/portfolio/card.png",
+            "source": "https://github.com/Szidelo/Frontend_mentor_interactiv",
+            "demo": "https://szidelo.github.io/Frontend_mentor_interactiv/",
+            "desc": "Card Form introduces a dynamic and interactive approach to collecting and processing information. With a sleek and responsive design, users can fill out forms with ease and enjoy a visually appealing experience. Simplify data entry and engagement with Card Form!"
+        }
+    ]
+}

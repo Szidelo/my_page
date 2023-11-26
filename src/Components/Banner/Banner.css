@@ -1,0 +1,15 @@
+.banner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.banner h1 span {
+    border-bottom: 3px solid var(--green);
+}
+
+.banner p {
+    max-width: 500px;
+}
