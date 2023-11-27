@@ -3,8 +3,8 @@ import { Link } from "react-router-dom"
 
 const Projects = () => {
     return (
-        <div className="py-5 bg-black">
-            <div className="d-flex justify-content-between align-items-center pe-4">
+        <main className="py-5 bg-black">
+            <div className="d-flex flex-column flex-sm-row justify-content-between align-items-start align-items-sm-center gap-4">
 				<h1 className="heading-xl">Projects</h1>
 				<Link
 					to="/contact"
@@ -14,7 +14,7 @@ const Projects = () => {
 				</Link>
 			</div>
             <ProjectList/>
-        </div>
+        </main>
     )
 }
 

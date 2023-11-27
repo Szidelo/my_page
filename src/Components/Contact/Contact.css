@@ -1,0 +1,43 @@
+form p {
+    color: var(--green) !important;
+    width: 100%;
+}
+
+.form-container {
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+}
+
+.form-container form {
+    width: 100%;
+}
+
+.contact__option {
+    display: flex;
+    gap: 1.2rem;
+    background: transparent;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact__option:hover {
+    background: var(--green-shadow);
+    border-color: var(--color-primary-variant);
+    box-shadow: var(--shadow-red);
+    backdrop-filter: blur(2.5px);
+}
+
+.contact__option svg {
+    color: var(--white);
+    margin: 0 auto;
+    width: 30px;
+    height: auto;
+}
+
+.contact__option a {
+    color: var(--green);
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+}

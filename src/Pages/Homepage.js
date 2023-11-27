@@ -2,9 +2,9 @@ import Banner from '../Components/Banner/Banner'
 
 const Homepage = () => {
     return (
-        <div className="bg-black">
+        <main className="bg-black mb-5">
             <Banner/>
-        </div>
+        </main>
     )
 }
 

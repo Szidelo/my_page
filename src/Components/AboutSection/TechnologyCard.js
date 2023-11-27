@@ -3,7 +3,7 @@ import "./AboutSection.css";
 
 const TechnologyCard = ({ icon, name, desc }) => {
 	return (
-		<div className="tech-card col-12 col-xl-6 col-xxl-4 p-4">
+		<div className="tech-card col-12 col-xl-6 col-xxl-4 p-0 py-3 p-sm-4">
 			<div className="tech-item p-4">
 				<div className="tech-item-img d-flex">{icon}</div>
 				<div className="tech-item-content">

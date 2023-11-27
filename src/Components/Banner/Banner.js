@@ -1,5 +1,6 @@
 import "./Banner.css";
 import { Link } from "react-router-dom";
+import CV from '../../assets/the-cv.pdf'
 
 const Banner = () => {
 	return (
@@ -13,12 +14,13 @@ const Banner = () => {
 				building accessible web apps that users love.
 			</p>
 			<div className="d-flex gap-3">
-				<Link
+				<a
 					className="btn-portfolio"
-					to="/contact"
+					download
+					href={CV}
 				>
-					Contact me
-				</Link>
+					Download CV
+				</a>
 				<Link
 					className="btn-portfolio btn-portfolio-light"
 					to="/projects"

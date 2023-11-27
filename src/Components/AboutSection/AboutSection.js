@@ -24,7 +24,7 @@ const AboutSection = () => {
 	return (
 		<section className="about">
 			<div className="row py-5">
-				<div className="col-12 col-lg-5 col-xl-4">
+				<div className="col-12 col-xxl-4">
 					<div className="about__img-conatiner">
 						<img
 							className="img-fluid"
@@ -33,8 +33,8 @@ const AboutSection = () => {
 						/>
 					</div>
 				</div>
-				<div className="col-12 col-lg-7 col-xl-8">
-					<div className="py-4 ps-5">
+				<div className="col-12 col-xxl-8">
+					<div className="p-3 pt-5 py-lg-4 ps-lg-5">
 						<h2 className="heading-l me-auto mb-5"><span className="underline">About me</span></h2>
 						<div className="d-flex flex-column justify-content-between">
 							<p className="body mb-5">
@@ -74,8 +74,8 @@ const AboutSection = () => {
 				</div>
 			</div>
             <div className="mt-5">
+                <div className="row w-100 pb-5 px-3 mb-5">
                 <h2 className="heading-l">Technologies</h2>
-                <div className="row w-100">
                     {techStack.map((techCard, index) => (
 
                     <TechnologyCard key={index} name={techCard.name} icon={techCard.icon} desc={techCard.description} />

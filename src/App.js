@@ -6,7 +6,7 @@ import About from "./Pages/About";
 import NotFound from "./Pages/NotFound";
 // import ProjectList from "./Components/ProjectList/ProjectList";
 import Projects from "./Pages/Projects";
-import Contact from "./Pages/Contact";
+import ContactPage from "./Pages/ContactPage";
 import Roots from "./Roots";
 
 const App = () => {
@@ -34,14 +34,14 @@ const App = () => {
 				},
 				{
 					path: "/Contact",
-					element: <Contact />,
+					element: <ContactPage />,
 				},
 			],
 		},
 	]);
 
 	return (
-		<div className="">
+		<div className="d-flex flex-column">
 			<Header />
 			<RouterProvider router={router} />
 		</div>

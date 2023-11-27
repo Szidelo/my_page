@@ -4,8 +4,8 @@ header {
     align-items: center;
     width: 100%;
     padding: 20px 25px;
-    border-bottom: 1px solid var(--green);
     max-height: 10vh;
+    z-index: 100;
 }
 
 .page-logo {
@@ -29,4 +29,10 @@ header {
 
 .header-icon:hover, .page-logo:hover {
     color: var(--green);
+}
+
+@media (max-width: 360px) {
+    header {
+        display: none;
+    }
 }
