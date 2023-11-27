@@ -7,7 +7,7 @@
 }
 
 .banner h1 span {
-    border-bottom: 3px solid var(--green);
+    color: var(--blue);
 }
 
 .banner p {

@@ -11,8 +11,8 @@ html {
 
 :root {
 	--black: #151515;
-	--green: #0199be;
-	--green-shadow: rgba(0, 151, 189, 0.5);
+	--blue: #0199be;
+	--blue-shadow: rgba(0, 151, 189, 0.5);
 	--dark-grey: #242424;
 	--light-grey: #d9d9d9;
 	--white: #fff;
@@ -26,12 +26,12 @@ html {
 
 /* Track */
 ::-webkit-scrollbar-track {
-	box-shadow: inset 0 0 2px var(--green-shadow);
+	box-shadow: inset 0 0 2px var(--blue-shadow);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-	background: var(--green);
+	background: var(--blue);
 }
 
 /* Handle on hover */
@@ -48,7 +48,7 @@ html {
 }
 
 .content {
-	border-top: 1px solid var(--green);
+	border-top: 1px solid var(--blue);
 }
 
 main {
@@ -125,23 +125,23 @@ main {
 	color: var(--white);
 	background-color: transparent;
 	border: none;
-	border: 1px solid var(--green);
+	border: 1px solid var(--blue);
 	padding: 10px;
 	user-select: none;
 }
 
 .btn-portfolio-light {
-	background-color: var(--green);
+	background-color: var(--blue);
 	color: var(--black);
 }
 
 .btn-portfolio:hover {
-	color: var(--green);
+	color: var(--blue);
 }
 
 .btn-portfolio-light:hover {
 	background-color: transparent;
-	color: var(--green);
+	color: var(--blue);
 }
 
 form {
@@ -194,7 +194,7 @@ textarea::placeholder {
 }
 
 input.success {
-	border-bottom: 2px solid var(--green);
+	border-bottom: 2px solid var(--blue);
 }
 
 input.error {
@@ -211,7 +211,7 @@ input.error {
 
 .bar-wrapper {
 	min-width: 150px !important;
-	border-right: 1px solid var(--green);
+	border-right: 1px solid var(--blue);
 }
 
 .content-wrapper {

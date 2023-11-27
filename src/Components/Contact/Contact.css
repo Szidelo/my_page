@@ -1,5 +1,5 @@
 form p {
-    color: var(--green) !important;
+    color: var(--blue) !important;
     width: 100%;
 }
 
@@ -22,7 +22,7 @@ form p {
 }
 
 .contact__option:hover {
-    background: var(--green-shadow);
+    background: var(--blue-shadow);
     border-color: var(--color-primary-variant);
     box-shadow: var(--shadow-red);
     backdrop-filter: blur(2.5px);
@@ -36,7 +36,7 @@ form p {
 }
 
 .contact__option a {
-    color: var(--green);
+    color: var(--blue);
     font-size: 18px;
     font-weight: 700;
     text-decoration: none;

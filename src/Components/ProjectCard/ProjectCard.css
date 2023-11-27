@@ -58,7 +58,7 @@
 
 .tech-info {
     text-transform: uppercase;
-    color: var(--green);
+    color: var(--blue);
     animation: animated-text;
     animation-duration: 2.5s;
     animation-iteration-count: infinite;

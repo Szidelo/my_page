@@ -20,7 +20,7 @@
 .icon-wrapper {
     border-radius: 50%;
     background-color: var(--dark-grey);
-    color: var(--green);
+    color: var(--blue);
     padding: 10px;
     width: 40px;
     height: 40px;
@@ -30,7 +30,7 @@
 }
 
 .icon-wrapper:hover {
-    background-color: var(--green);
+    background-color: var(--blue);
     color: var(--black)
 }
 
@@ -44,12 +44,12 @@
 }
 
 .active {
-    background-color: var(--green);
+    background-color: var(--blue);
     color: var(--black);
 }
 
 .active-para {
-    color: var(--green);
+    color: var(--blue);
     opacity: 1 !important;
 }
 
