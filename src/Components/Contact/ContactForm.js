@@ -15,14 +15,6 @@ const ContactForm = () => {
 	const [emailIsValid, setEmailIsValid] = useState(true)
 	const [isValid, setIsValid] = useState(true)
 
-	const validateEmail = () => {
-		if(!emailRegex.test(mail)) {
-			setEmailIsValid(true)
-		}
-
-		setEmailIsValid(false)
-	}
-
 	const sendEmail = (e) => {
 		e.preventDefault();
 
