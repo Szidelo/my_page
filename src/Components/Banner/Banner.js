@@ -1,6 +1,6 @@
 import "./Banner.css";
 import { Link } from "react-router-dom";
-import CV from '../../assets/the-cv.pdf'
+import CV from "../../assets/the-cv.pdf";
 
 const Banner = () => {
 	return (
@@ -10,8 +10,10 @@ const Banner = () => {
 				I'm <span>Claudiu Szidelo</span>
 			</h1>
 			<p className="body mb-5">
-				Based in the UK, I’m a front-end developer passionate about
-				building accessible web apps that users love.
+				Hailing from Romania, I am a passionate frontend developer with
+				a deep love for crafting beautiful websites and web
+				applications.<br/>
+				I am currently seeking a new entry-level position in the field of frontend development.
 			</p>
 			<div className="d-flex gap-3">
 				<a
@@ -28,7 +30,9 @@ const Banner = () => {
 					See Projects
 				</Link>
 			</div>
-			
+			<div className="video-wrapper">
+
+			</div>
 		</section>
 	);
 };

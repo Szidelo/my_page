@@ -7,7 +7,7 @@
             "img": "./images/portfolio/dine.png",
             "source": "https://github.com/Szidelo/dine-restaurant-vercel",
             "demo": "https://dine-restaurant-vercel.vercel.app/",
-            "desc": "Dine Restaurant is a sophisticated web application that offers a delightful culinary experience. With a modern and user-friendly interface, users can explore a diverse menu, make reservations, and discover the essence of fine dining. Indulge in a seamless online dining experience with Dine Restaurant!"
+            "desc": "Dine Restaurant is one of my first projects built with React.js. In this project, I used React Router to navigate through the homepage, reservation page, confirmation page, and back to the homepage. I also added a 404 page. I used Bootstrap and custom CSS for styling. In the form validation, I used regex to validate email addresses. The app serves as a landing page for a restaurant, allowing users to make reservations through the form."
         },
         {
             "id": "project2",
@@ -16,7 +16,7 @@
             "img": "./images/portfolio/galle.png",
             "source": "https://github.com/Szidelo/galleria",
             "demo": "https://galleria-three.vercel.app/galleria",
-            "desc": "Art Galleria is a virtual art exhibition platform that brings together a diverse collection of artistic masterpieces. Immerse yourself in the world of creativity as you navigate through captivating artworks from various genres. Explore, appreciate, and enjoy the beauty of art with Art Galleria!"
+            "desc": "As someone who loves art of any kind, this project was a pleasure to make. It is built with Vue.js, utilizing technologies like Vue Router for navigation, TypeScript, Composition API, Bootstrap, and custom CSS for styling. The purpose of the webpage is to navigate through paintings and view details on each, such as history, year, author, and a link to Wikipedia."
         },
         {
             "id": "project3",
@@ -25,7 +25,7 @@
             "img": "./images/portfolio/book.png",
             "source": "https://github.com/Szidelo/Book-store-vuejs",
             "demo": "https://book-store-vuejs.vercel.app/home",
-            "desc": "Book Store is an online haven for book enthusiasts, offering a curated selection of literary treasures. Dive into a virtual bookshelf filled with captivating stories from different genres. Browse, search, and discover your next literary adventure with ease at Book Store!"
+            "desc": "Book Store is an web app where users can view details about the author of the book, read articles about books and more, and order a book by adding it to the shopping cart. To build this app, I used Vue.js with Composition API, TypeScript to define classes like the cart with its logic, localStorage to save data locally, Vue Router for navigation, and Bootstrap with custom CSS for styling."
         },
         {
             "id": "project4",
@@ -34,7 +34,7 @@
             "img": "./images/portfolio/space-tour.png",
             "source": "https://github.com/Mentoring-Repository/app7-space-tourism",
             "demo": "https://app7-space-tourism.vercel.app/",
-            "desc": "Embark on an extraordinary journey with Space Tourism, where the wonders of the cosmos come to life. This innovative web application offers a virtual tour of celestial destinations, providing a glimpse into the marvels of outer space. Experience the thrill of space exploration from the comfort of your screen with Space Tourism!"
+            "desc": "In this project, I worked together with my colleagues from the Software Development Academy under the guidance of our mentor. The project is built with React, and we used Trello to manage tasks. We also used React Router for navigation and a combination of Bootstrap and custom CSS for styling. This serves as a landing page for an (imagined) space tourism agency."
         },
         {
             "id": "project5",
@@ -43,7 +43,7 @@
             "img": "./images/portfolio/age.png",
             "source": "https://github.com/Szidelo/age_calculator_app",
             "demo": "https://szidelo.github.io/age_calculator_app/",
-            "desc": "Age Calculator is a handy tool that simplifies the process of determining age and important milestones. Whether you're planning events, tracking personal achievements, or simply curious, this intuitive calculator provides quick and accurate results. Calculate age effortlessly with Age Calculator!"
+            "desc": "Age Calculator is a handy tool that simplifies the process of determining a person's age. This project was built with vanilla JavaScript, HTML, and CSS. To calculate the age properly, I used the new Date object from JavaScript, and it was one of my biggest challenges to figure out the logic."
         },
         {
             "id": "project6",
@@ -52,7 +52,7 @@
             "img": "./images/portfolio/card.png",
             "source": "https://github.com/Szidelo/Frontend_mentor_interactiv",
             "demo": "https://szidelo.github.io/Frontend_mentor_interactiv/",
-            "desc": "Card Form introduces a dynamic and interactive approach to collecting and processing information. With a sleek and responsive design, users can fill out forms with ease and enjoy a visually appealing experience. Simplify data entry and engagement with Card Form!"
+            "desc": "This is a challenge from Frontend Mentor open source. It was built with vanilla JavaScript, HTML, and CSS. Users can fill in the form and see the card details update in real-time. They receive error messages when the form is submitted if any input field is empty or if the card number, expiry date, or CVC fields are in the wrong format."
         }
     ]
 }

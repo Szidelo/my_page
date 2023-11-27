@@ -2,13 +2,45 @@ import './Contact.css'
 import { useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
 
+const emailRegex = /^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/;
+
 const ContactForm = () => {
 	const form = useRef();
 
 	const [isEmailSent, setIsEmailSent] = useState(false)
+	const [name, setName] = useState('')
+	const [mail, setMail] = useState('')
+	const [message, setMessage] = useState('')
+
+	const [emailIsValid, setEmailIsValid] = useState(true)
+	const [isValid, setIsValid] = useState(true)
+
+	const validateEmail = () => {
+		if(!emailRegex.test(mail)) {
+			setEmailIsValid(true)
+		}
+
+		setEmailIsValid(false)
+	}
 
 	const sendEmail = (e) => {
 		e.preventDefault();
+
+		if(!emailRegex.test(mail)) {
+			setEmailIsValid(false)
+			setIsValid(false)
+			return
+		} else {
+			setEmailIsValid(true)
+			setIsValid(true)
+		}
+
+		if(name === "" || mail === "" || message === "") {
+			setIsValid(false)
+			return
+		} else {
+			setIsValid(true)
+		}
 
 		emailjs
 			.sendForm(
@@ -32,9 +64,10 @@ const ContactForm = () => {
 
 		
 		e.target.reset();
+		setName('')
+		setMail('')
+		setMessage('')
 	};
-
-	console.log(sendEmail)
 
 	return (
 		<form
@@ -47,20 +80,28 @@ const ContactForm = () => {
 				type="text"
 				placeholder="user"
 				name="name"
-				required
+				value={name}
+				onChange={(e) => setName(e.target.value)}
+				
 			/>
 			<input
-				type="email"
+				type="text"
 				placeholder="email"
 				name="email"
-				required
+				value={mail}
+				onChange={(e) => setMail(e.target.value)}
+				
 			/>
+			{!emailIsValid && <p className='body color-error'>invalid email</p>}
 			<textarea
 				type="text"
 				placeholder="message"
 				name="message"
-				required
+				value={message}
+				onChange={(e) => setMessage(e.target.value)}
+				
 			/>
+			{!isValid && <p className='body color-error align-self-start'>Please fill out all fields</p>}
 			<button type="submit" className="btn-portfolio">contact</button>
 			{isEmailSent && <p className="body align-self-start">Email sent! Thank you!</p>}
 		</form>
