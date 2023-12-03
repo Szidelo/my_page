@@ -1,6 +1,6 @@
 import "./Banner.css";
 import { Link } from "react-router-dom";
-import CV from "../../assets/the-cv.pdf";
+import CV from "../../assets/CV_Szidelo_Claudiu.pdf";
 
 const Banner = () => {
 	return (
