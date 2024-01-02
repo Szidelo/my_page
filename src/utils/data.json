@@ -21,7 +21,7 @@
         {
             "id": "project3",
             "name": "book store",
-            "tech": ["vue", "vue-router", "bootstrap", "css", "typescript"],
+            "tech": ["vue", "vue-router", "bootstrap", "css", "typescript", "Stripe", "Newsapi.org", "SweetAlert2"],
             "img": "./images/portfolio/book.png",
             "source": "https://github.com/Szidelo/Book-store-vuejs",
             "demo": "https://book-store-vuejs.vercel.app/home",
