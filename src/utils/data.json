@@ -25,7 +25,7 @@
             "img": "./images/portfolio/book.png",
             "source": "https://github.com/Szidelo/Book-store-vuejs",
             "demo": "https://book-store-vuejs.vercel.app/home",
-            "desc": "Book Store is an web app where users can view details about the author of the book, read articles about books and more, and order a book by adding it to the shopping cart. To build this app, I used Vue.js with Composition API, TypeScript to define classes like the cart with its logic, localStorage to save data locally, Vue Router for navigation, and Bootstrap with custom CSS for styling."
+            "desc": "As Software Development Academy Final Project, Book Store is an web app where users can view details about the author of the book, read articles about books and more, and order a book by adding it to the shopping cart. To build this app, I used Vue.js with Composition API, TypeScript to define classes like the cart with its logic, localStorage to save data locally, Vue Router for navigation, newsapi.org api for fetching data (free version only works on localstorage), Stripe payment gateway for payment service and Bootstrap with custom CSS for styling."
         },
         {
             "id": "project4",
