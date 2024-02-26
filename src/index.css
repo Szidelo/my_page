@@ -149,7 +149,7 @@ form {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: end;
+	align-items: flex-end;
 }
 
 input:-webkit-autofill,
@@ -254,5 +254,27 @@ input.error {
 @media (max-width: 552px) {
 	::-webkit-scrollbar {
 		display: none;
+	}
+
+	.heading-xl {
+		font-size: 42px;
+		line-height: 70px;
+		letter-spacing: -2.5px;
+	}
+
+	.heading-l {
+		font-size: 32px;
+	}
+
+	.heading-m {
+		font-size: 17px;
+	}
+
+	.body {
+		font-size: 14px;
+	}
+
+	.btn-portfolio {
+		font-size: 12px;
 	}
 }
