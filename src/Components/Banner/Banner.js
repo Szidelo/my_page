@@ -6,7 +6,7 @@ const Banner = () => {
 	return (
 		<section className="banner py-3 py-xl-5">
 			<h1 className="heading-xl">Nice to meet you</h1>
-			<h1 className="heading-xl mb-5">
+			<h1 className="heading-xl mb-3 mb-xl-5">
 				I'm <span>Claudiu Szidelo</span>
 			</h1>
 			<p className="body mb-5">
