@@ -7,7 +7,7 @@ import { BiMessageSquareDetail } from "react-icons/bi";
 import { useState, useEffect } from "react";
 
 const Navbar = () => {
-	const locationPath = useLocation()
+	const locationPath = useLocation();
 	const [location, setLocation] = useState(locationPath);
 
 	const links = [
@@ -34,8 +34,8 @@ const Navbar = () => {
 	];
 
 	useEffect(() => {
-		setLocation(locationPath.pathname)
-	}, [locationPath.pathname])
+		setLocation(locationPath.pathname);
+	}, [locationPath.pathname]);
 
 	return (
 		<nav className="nav-bar">
@@ -45,24 +45,17 @@ const Navbar = () => {
 						<Link
 							onClick={() => setLocation(link.path)}
 							to={link.path}
-							className="link-item d-flex justify-content-start align-items-center gap-2 py-0 py-lg-3"
-						>
+							className="link-item d-flex justify-content-start align-items-center gap-2 py-0 py-lg-3">
 							<div
 								className={
-									location === link.path
-										? "icon-wrapper active"
-										: "icon-wrapper"
-								}
-							>
+									location === link.path ? "icon-wrapper active" : "icon-wrapper"
+								}>
 								{link.icon}
 							</div>
 							<p
 								className={
-									location === link.path
-										? "body active-para m-0"
-										: "body m-0"
-								}
-							>
+									location === link.path ? "body active-para m-0" : "body m-0"
+								}>
 								{link.text}
 							</p>
 						</Link>
