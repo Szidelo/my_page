@@ -1,58 +1,76 @@
 {
-    "projects": [
-        {
-            "id": "project1",
-            "name": "dine restaurant",
-            "tech": ["react", "react-router", "bootstrap", "css"],
-            "img": "./images/portfolio/dine.png",
-            "source": "https://github.com/Szidelo/dine-restaurant-vercel",
-            "demo": "https://dine-restaurant-vercel.vercel.app/",
-            "desc": "Dine Restaurant is one of my first projects built with React.js. In this project, I used React Router to navigate through the homepage, reservation page, confirmation page, and back to the homepage. I also added a 404 page. I used Bootstrap and custom CSS for styling. In the form validation, I used regex to validate email addresses. The app serves as a landing page for a restaurant, allowing users to make reservations through the form."
-        },
-        {
-            "id": "project2",
-            "name": "art galleria",
-            "tech": ["vue", "vue-router", "bootstrap", "css", "typescript"],
-            "img": "./images/portfolio/galle.png",
-            "source": "https://github.com/Szidelo/galleria",
-            "demo": "https://galleria-three.vercel.app/galleria",
-            "desc": "As someone who loves art of any kind, this project was a pleasure to make. It is built with Vue.js, utilizing technologies like Vue Router for navigation, TypeScript, Composition API, Bootstrap, and custom CSS for styling. The purpose of the webpage is to navigate through paintings and view details on each, such as history, year, author, and a link to Wikipedia."
-        },
-        {
-            "id": "project3",
-            "name": "book store",
-            "tech": ["vue", "vue-router", "bootstrap", "css", "typescript", "Stripe", "Newsapi.org", "SweetAlert2"],
-            "img": "./images/portfolio/book.png",
-            "source": "https://github.com/Szidelo/Book-store-vuejs",
-            "demo": "https://book-store-vuejs.vercel.app/home",
-            "desc": "As Software Development Academy Final Project, Book Store is an web app where users can view details about the author of the book, read articles about books and more, and order a book by adding it to the shopping cart. To build this app, I used Vue.js with Composition API, TypeScript to define classes like the cart with its logic, localStorage to save data locally, Vue Router for navigation, newsapi.org api for fetching data (free version only works on localstorage), Stripe payment gateway for payment service and Bootstrap with custom CSS for styling."
-        },
-        {
-            "id": "project4",
-            "name": "space tourism",
-            "tech": ["react", "react-router", "bootstrap", "css"],
-            "img": "./images/portfolio/space-tour.png",
-            "source": "https://github.com/Mentoring-Repository/app7-space-tourism",
-            "demo": "https://app7-space-tourism.vercel.app/",
-            "desc": "In this project, I worked together with my colleagues from the Software Development Academy under the guidance of our mentor. The project is built with React, and we used Trello to manage tasks. We also used React Router for navigation and a combination of Bootstrap and custom CSS for styling. This serves as a landing page for an (imagined) space tourism agency."
-        },
-        {
-            "id": "project5",
-            "name": "age calculator",
-            "tech": ["html", "css", "bootstrap", "vanilla javascript"],
-            "img": "./images/portfolio/age.png",
-            "source": "https://github.com/Szidelo/age_calculator_app",
-            "demo": "https://szidelo.github.io/age_calculator_app/",
-            "desc": "Age Calculator is a handy tool that simplifies the process of determining a person's age. This project was built with vanilla JavaScript, HTML, and CSS. To calculate the age properly, I used the new Date object from JavaScript, and it was one of my biggest challenges to figure out the logic."
-        },
-        {
-            "id": "project6",
-            "name": "card form",
-            "tech": ["html", "css", "bootstrap", "vanilla javascript"],
-            "img": "./images/portfolio/card.png",
-            "source": "https://github.com/Szidelo/Frontend_mentor_interactiv",
-            "demo": "https://szidelo.github.io/Frontend_mentor_interactiv/",
-            "desc": "This is a challenge from Frontend Mentor open source. It was built with vanilla JavaScript, HTML, and CSS. Users can fill in the form and see the card details update in real-time. They receive error messages when the form is submitted if any input field is empty or if the card number, expiry date, or CVC fields are in the wrong format."
-        }
-    ]
+	"projects": [
+		{
+			"id": "project1",
+			"name": "dine restaurant",
+			"tech": ["react", "react-router", "bootstrap", "css"],
+			"img": "./images/portfolio/dine.png",
+			"source": "https://github.com/Szidelo/dine-restaurant-vercel",
+			"demo": "https://dine-restaurant-vercel.vercel.app/",
+			"desc": "Dine Restaurant is one of my first projects built with React.js. In this project, I used React Router to navigate through the homepage, reservation page, confirmation page, and back to the homepage. I also added a 404 page. I used Bootstrap and custom CSS for styling. In the form validation, I used regex to validate email addresses. The app serves as a landing page for a restaurant, allowing users to make reservations through the form."
+		},
+		{
+			"id": "project2",
+			"name": "art galleria",
+			"tech": ["vue", "vue-router", "bootstrap", "css", "typescript"],
+			"img": "./images/portfolio/galle.png",
+			"source": "https://github.com/Szidelo/galleria",
+			"demo": "https://galleria-three.vercel.app/galleria",
+			"desc": "As someone who loves art of any kind, this project was a pleasure to make. It is built with Vue.js, utilizing technologies like Vue Router for navigation, TypeScript, Composition API, Bootstrap, and custom CSS for styling. The purpose of the webpage is to navigate through paintings and view details on each, such as history, year, author, and a link to Wikipedia."
+		},
+		{
+			"id": "project3",
+			"name": "book store",
+			"tech": ["vue", "vue-router", "bootstrap", "css", "typescript", "Stripe", "Newsapi.org", "SweetAlert2"],
+			"img": "./images/portfolio/book.png",
+			"source": "https://github.com/Szidelo/Book-store-vuejs",
+			"demo": "https://book-store-vuejs.vercel.app/home",
+			"desc": "As Software Development Academy Final Project, Book Store is an web app where users can view details about the author of the book, read articles about books and more, and order a book by adding it to the shopping cart. To build this app, I used Vue.js with Composition API, TypeScript to define classes like the cart with its logic, localStorage to save data locally, Vue Router for navigation, newsapi.org api for fetching data (free version only works on localstorage), Stripe payment gateway for payment service and Bootstrap with custom CSS for styling."
+		},
+		{
+			"id": "project4",
+			"name": "space tourism",
+			"tech": ["react", "react-router", "bootstrap", "css"],
+			"img": "./images/portfolio/space-tour.png",
+			"source": "https://github.com/Mentoring-Repository/app7-space-tourism",
+			"demo": "https://app7-space-tourism.vercel.app/",
+			"desc": "In this project, I worked together with my colleagues from the Software Development Academy under the guidance of our mentor. The project is built with React, and we used Trello to manage tasks. We also used React Router for navigation and a combination of Bootstrap and custom CSS for styling. This serves as a landing page for an (imagined) space tourism agency."
+		},
+		{
+			"id": "project5",
+			"name": "age calculator",
+			"tech": ["html", "css", "bootstrap", "vanilla javascript"],
+			"img": "./images/portfolio/age.png",
+			"source": "https://github.com/Szidelo/age_calculator_app",
+			"demo": "https://szidelo.github.io/age_calculator_app/",
+			"desc": "Age Calculator is a handy tool that simplifies the process of determining a person's age. This project was built with vanilla JavaScript, HTML, and CSS. To calculate the age properly, I used the new Date object from JavaScript, and it was one of my biggest challenges to figure out the logic."
+		},
+		{
+			"id": "project6",
+			"name": "card form",
+			"tech": ["html", "css", "bootstrap", "vanilla javascript"],
+			"img": "./images/portfolio/card.png",
+			"source": "https://github.com/Szidelo/Frontend_mentor_interactiv",
+			"demo": "https://szidelo.github.io/Frontend_mentor_interactiv/",
+			"desc": "This is a challenge from Frontend Mentor open source. It was built with vanilla JavaScript, HTML, and CSS. Users can fill in the form and see the card details update in real-time. They receive error messages when the form is submitted if any input field is empty or if the card number, expiry date, or CVC fields are in the wrong format."
+		},
+		{
+			"id": "project7",
+			"name": "book library",
+			"tech": ["html", "css", "vanilla javascript", "firestore"],
+			"img": "./images/portfolio/library.png",
+			"source": "https://github.com/Szidelo/odin-book-library",
+			"demo": "https://book-library-60b1e.web.app/index.html",
+			"desc": "As part of The Odin Project JavaScript path, the Book Library app is a web application built with vanilla JavaScript, CSS, and HTML, using Firebase for authentication and Firestore for data storage. Users can create an account, manage their book collection by adding, editing, searching, and removing books. The app allows users to organize and personalize their book library in a simple and interactive way."
+		},
+		{
+			"id": "project8",
+			"name": "dashboard",
+			"tech": ["html", "css", "vanilla javascript"],
+			"img": "./images/portfolio/dashboard.png",
+			"source": "https://github.com/Szidelo/odin-dashboard",
+			"demo": "https://szidelo.github.io/odin-dashboard/",
+			"desc": "As part of The Odin Project Grid lesson, this Dashboard web app is built with HTML, CSS, and JavaScript. It utilizes CSS Grid to create a flexible and dynamic layout, allowing content to adjust seamlessly across different screen sizes. Users can toggle between dark and light modes, with their theme preference saved to localStorage for persistence across sessions. The app is fully responsive and features a collapsible sidebar for a smooth and interactive user experience."
+		}
+	]
 }
