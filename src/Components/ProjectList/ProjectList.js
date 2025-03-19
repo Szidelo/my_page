@@ -4,7 +4,7 @@ import data from "../../utils/data.json";
 
 const ProjectList = () => {
 	return (
-		<div className="project-list d-flex flex-column gap-5 py-5">
+		<div className="project-list d-flex flex-column gap-5 py-5 mb-5">
 			
 			{data.projects.map((project) => (
 				<ProjectCard
