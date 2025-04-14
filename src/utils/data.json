@@ -47,11 +47,11 @@
 		},
 		{
 			"id": "project6",
-			"name": "card form",
-			"tech": ["html", "css", "bootstrap", "vanilla javascript"],
-			"img": "./images/portfolio/card.png",
-			"source": "https://github.com/Szidelo/Frontend_mentor_interactiv",
-			"demo": "https://szidelo.github.io/Frontend_mentor_interactiv/",
+			"name": "tic tac toe",
+			"tech": ["html", "css", "vanilla javascript"],
+			"img": "./images/portfolio/tic-tac-toe.png",
+			"source": "https://github.com/Szidelo/odin-tic-tac-toe",
+			"demo": "https://szidelo.github.io/odin-tic-tac-toe/",
 			"desc": "This is a challenge from Frontend Mentor open source. It was built with vanilla JavaScript, HTML, and CSS. Users can fill in the form and see the card details update in real-time. They receive error messages when the form is submitted if any input field is empty or if the card number, expiry date, or CVC fields are in the wrong format."
 		},
 		{
@@ -61,7 +61,7 @@
 			"img": "./images/portfolio/library.png",
 			"source": "https://github.com/Szidelo/odin-book-library",
 			"demo": "https://book-library-60b1e.web.app/index.html",
-			"desc": "As part of The Odin Project JavaScript path, the Book Library app is a web application built with vanilla JavaScript, CSS, and HTML, using Firebase for authentication and Firestore for data storage. Users can create an account, manage their book collection by adding, editing, searching, and removing books. The app allows users to organize and personalize their book library in a simple and interactive way."
+			"desc": "As part of The Odin Project JavaScript path, this app is a smart and stylish Tic Tac Toe game built with vanilla JavaScript. Play against a friend or challenge the computer on different difficulty levels. The computer uses minimax algorithm to find the best move on impossible and on lower difficulties has a chance to make a random move. Available in multiple languages!"
 		},
 		{
 			"id": "project8",
