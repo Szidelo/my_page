@@ -71,6 +71,15 @@
 			"source": "https://github.com/Szidelo/odin-dashboard",
 			"demo": "https://szidelo.github.io/odin-dashboard/",
 			"desc": "As part of The Odin Project Grid lesson, this Dashboard web app is built with HTML, CSS, and JavaScript. It utilizes CSS Grid to create a flexible and dynamic layout, allowing content to adjust seamlessly across different screen sizes. Users can toggle between dark and light modes, with their theme preference saved to localStorage for persistence across sessions. The app is fully responsive and features a collapsible sidebar for a smooth and interactive user experience."
+		},
+		{
+			"id": "project9",
+			"name": "odin restaurant",
+			"tech": ["html", "css", "vanilla javascript", "webpack"],
+			"img": "./images/portfolio/odin-restaurant.png",
+			"source": "https://github.com/Szidelo/odin-restaurant",
+			"demo": "https://szidelo.github.io/odin-restaurant/",
+			"desc": "Odin Restaurant is a static webpage built as part of The Odin Project curriculum. It was created using only HTML, CSS, and vanilla JavaScript, focusing on DOM manipulation and modular JavaScript concepts via webpack. The app dynamically renders different sections—Home, About, Menu, and Contact—without reloading the page."
 		}
 	]
 }
