@@ -77,8 +77,8 @@
 			"name": "odin restaurant",
 			"tech": ["html", "css", "vanilla javascript", "webpack"],
 			"img": "./images/portfolio/odin-restaurant.png",
-			"source": "https://github.com/Szidelo/odin-restaurant",
-			"demo": "https://szidelo.github.io/odin-restaurant/",
+			"source": "https://github.com/Szidelo/odin-restaurant-page",
+			"demo": "https://szidelo.github.io/odin-restaurant-page/",
 			"desc": "Odin Restaurant is a static webpage built as part of The Odin Project curriculum. It was created using only HTML, CSS, and vanilla JavaScript, focusing on DOM manipulation and modular JavaScript concepts via webpack. The app dynamically renders different sections—Home, About, Menu, and Contact—without reloading the page."
 		}
 	]
